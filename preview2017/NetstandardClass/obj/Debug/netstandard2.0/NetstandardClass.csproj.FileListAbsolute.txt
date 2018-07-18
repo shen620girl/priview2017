@@ -1,0 +1,4 @@
+D:\priview2017\preview2017\NetstandardClass\obj\Debug\netstandard2.0\NetstandardClass.csprojAssemblyReference.cache
+D:\priview2017\preview2017\NetstandardClass\obj\Debug\netstandard2.0\NetstandardClass.csproj.CoreCompileInputs.cache
+D:\priview2017\preview2017\NetstandardClass\obj\Debug\netstandard2.0\NetstandardClass.AssemblyInfoInputs.cache
+D:\priview2017\preview2017\NetstandardClass\obj\Debug\netstandard2.0\NetstandardClass.AssemblyInfo.cs
