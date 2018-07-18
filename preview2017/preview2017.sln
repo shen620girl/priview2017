@@ -3,7 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27705.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetstandardClass", "NetstandardClass\NetstandardClass.csproj", "{F60B2D09-5557-410D-B4AF-7B94B4E8603F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetstandardClass", "NetstandardClass\NetstandardClass.csproj", "{F60B2D09-5557-410D-B4AF-7B94B4E8603F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ireader", "ireader", "{532751EC-BA38-4C69-89C1-2A001EAA7119}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\icb\Desktop\ireader\dapper.pdf = C:\Users\icb\Desktop\ireader\dapper.pdf
+		C:\Users\icb\Desktop\ireader\dapper2.pdf = C:\Users\icb\Desktop\ireader\dapper2.pdf
+		C:\Users\icb\Desktop\ireader\navicat快捷键.pdf = C:\Users\icb\Desktop\ireader\navicat快捷键.pdf
+		C:\Users\icb\Desktop\ireader\模型验证.pdf = C:\Users\icb\Desktop\ireader\模型验证.pdf
+		C:\Users\icb\Desktop\ireader\正则C#.pdf = C:\Users\icb\Desktop\ireader\正则C#.pdf
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
