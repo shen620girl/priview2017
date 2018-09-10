@@ -1,0 +1,73 @@
+﻿64编码处理：：  string dataEncode = StringHelper.ToEnBase64(data);
+excel读取数据：ExcelNpoiHelper.
+ExcelToTable(importVehicle.ImportVehicle);
+dapper常用查询出动态数据的操作：
+             var sql10 =
+                $@"select a.id,a.telephone as 'tel' from VehicleOwner as a
+                inner join (select top {past} row_number() over(order by CreateTime asc) 'idx', id from VehicleOwner) as b
+                on a.id = b.id
+                where b.idx > {past - size}";
+
+            var user10s = DB.v10.Query(sql10).ToList();
+            var tels = user10s.Select(i => i.tel).ToList();
+
+            var user20s = DB.v20.Query("select id,Mobile as 'tel' from tu_user where Mobile in @tels", new { tels = tels });
+
+            var list = new List<TransferRelation>();
+
+            user10s.ForEach(a =>
+            {
+                var bb = user20s.FirstOrDefault(b => b.tel == a.tel);
+                if (bb != null)
+                {
+                    var _count = user20s.Count(b => b.tel == a.tel);
+                    if (_count != 1)
+                    {
+                        //异常
+                        list.Add(new TransferRelation { V1ID = a.id, V2ID = "", TagType = 8 });
+                    }
+                    else
+                    {
+                        //关联
+                        list.Add(new TransferRelation { V1ID = a.id, V2ID = bb.id, TagType = 4 });
+                    }
+                }
+                else
+                {
+                    //新增
+                    list.Add(new TransferRelation { V1ID = a.id, V2ID = "", TagType = 2 });
+                }
+            });
+
+
+示例2：  var devices = DB.v10.Query("select DeviceCode,SimCardNo,CreateTime,ProductId from ObdDevice where InstallBillId = @billId", new { billId = billId }).ToList();
+                    if (devices == null || !devices.Any()) return;
+
+                    var device_sql = new StringBuilder();
+                    var device_record_id = empty;
+                    devices.ForEach(d =>
+                    {
+                        string _gid = empty, _sid = empty;
+                        var dg = DeviceGroupsV1.FirstOrDefault(i => i.v1id == d.ProductId);
+                        if (dg != null)
+                        {
+                            _gid = dg.v2id;
+                            var ds = DeviceGroupsV2.FirstOrDefault(i => i.Id == _gid);
+                            if (ds != null) _sid = ds.SupplierId;
+                        }
+                        device_record_id = DB.Guid32;
+                        device_sql.AppendLine($"insert into td_device values('{DB.Guid32}', '{d.DeviceCode}',2,'{_gid}',1,'{_sid}','{unitId_v2}',1,'',@ctime,null,'','{unitId_v2}','',null,1);");
+                        device_sql.AppendLine($"insert into td_device values('{DB.Guid32}', '{d.SimCardNo}',1,'',1,'','{unitId_v2}',1,'',@ctime,null,'','{unitId_v2}','',null,1);");
+                        device_sql.AppendLine($"insert into td_devicerecord values('{device_record_id}','{vehicleId_v2}','{d.DeviceCode}','{d.SimCardNo}',0,@ctime,'{orderId_v2}','{unitId_v2}','{ownerId_v2}','{_gid}','{dispatch_v2_data.id}');");
+                    });
+                    if (DB.v20.Execute(device_sql.ToString(), new { ctime = data.CreateTime }) < 1)
+                    {
+                        SetErrorOrder(orderId);
+                        logger.Info($"【写入失败 {dispatch_data.Id}】2.0设备、Sim卡与使用记录");
+                        return;
+                    }
+
+
+日志： NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger(); logger.Info($"【跳过 {orderId}】V1ID 无效");
+
+mysql:update ti_warehouse set Remark=concat(IFNULL(remark,''),"dddd2") where CardNumber in ("180953985776","180953988481","180953986010")

@@ -1,0 +1,4 @@
+﻿判断是否是枚举的值：  if (Enum.IsDefined(typeof(GuardCardStatusEnum), dto.Status))
+            {
+                sql += "and a.status=@Status ";
+            }

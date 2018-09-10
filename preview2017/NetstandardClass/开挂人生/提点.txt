@@ -1,0 +1,14 @@
+﻿V2：
+
+     
+
+            //var xx = new { Mobile = "138", UserName = "" };
+            //var json = JsonHelper.ToJson(xx);
+
+
+
+V3:
+ //RegisterInputDto dto1;
+            //var model = dto1.MapTo<TGuardSunRegistered>();
+            //model.Id = IdentityHelper.Guid32;
+            //model.CreateTime = Clock.Now;
