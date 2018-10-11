@@ -2,3 +2,32 @@
             {
                 sql += "and a.status=@Status ";
             }
+
+
+			 new[] { nameof(TVehicle.TotalMileage), nameof(TVehicle.CorrectionTime) });
+			
+
+		    public string  MarkerRelationBitwiseDesc
+        {
+            get
+            {
+              //  var enu = (MakerRelationBitwiseEnum)MarkerRelationBitwise;
+                return MarkerRelationBitwise.GetEnumText<MakerRelationBitwiseEnum>();
+            }
+        }
+
+		多数据库操作：
+		using (var conn = GetConnection("icb_main"))
+            {
+                if (account != null)
+                {
+                    account.Id = employee.Id;
+                    count = conn.Insert(account);
+                }
+                else
+                {
+                    const string sql = "update `t_account` set `type`=(`type`|@type) where `id`=@id;";
+                    count = conn.Execute(sql, new { type = (int)AccountTypeEnum.MakerUser, id = employee.Id });
+                }
+            }
+            count += Connection.Insert(employee, null, Trans);

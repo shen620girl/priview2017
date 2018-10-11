@@ -14,6 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ireader", "ireader", "{5327
 		C:\Users\icb\Desktop\ireader\正则C#.pdf = C:\Users\icb\Desktop\ireader\正则C#.pdf
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm", "Algorithm\Algorithm.csproj", "{B55E1B43-1B58-4324-9C59-64EC887427B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms", "WindowsForms\WindowsForms.csproj", "{4DF1C758-85AC-454D-980C-4ED1BB9B5196}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +28,14 @@ Global
 		{F60B2D09-5557-410D-B4AF-7B94B4E8603F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F60B2D09-5557-410D-B4AF-7B94B4E8603F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F60B2D09-5557-410D-B4AF-7B94B4E8603F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B55E1B43-1B58-4324-9C59-64EC887427B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55E1B43-1B58-4324-9C59-64EC887427B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55E1B43-1B58-4324-9C59-64EC887427B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55E1B43-1B58-4324-9C59-64EC887427B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF1C758-85AC-454D-980C-4ED1BB9B5196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF1C758-85AC-454D-980C-4ED1BB9B5196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF1C758-85AC-454D-980C-4ED1BB9B5196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF1C758-85AC-454D-980C-4ED1BB9B5196}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

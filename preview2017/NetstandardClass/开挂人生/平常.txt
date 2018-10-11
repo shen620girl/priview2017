@@ -1,0 +1,13 @@
+﻿系统路径：
+C:\\Windows
+@"C:\Windows"
+
+绝对路径：<body backround="E:\book\网页布局\代码\第2章\bg.jpg" > 
+相对路径：
+ <body background="bg.jpg">
+ <body background="img/bg.jpg">  
+ <body background="../bg.jpg">  
+ <body background="../img/bg.jpg">  
+    相对虚拟目录：
+  <body background="/img/bg.jpg"> 
+  Visual Assist X V10.9.2223 官方原版

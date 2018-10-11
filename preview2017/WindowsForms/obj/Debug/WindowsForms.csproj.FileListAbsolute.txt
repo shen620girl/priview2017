@@ -1,0 +1,10 @@
+D:\priview2017\preview2017\WindowsForms\obj\Debug\WindowsForms.csprojAssemblyReference.cache
+D:\priview2017\preview2017\WindowsForms\obj\Debug\WindowsForms.Form1.resources
+D:\priview2017\preview2017\WindowsForms\obj\Debug\WindowsForms.Properties.Resources.resources
+D:\priview2017\preview2017\WindowsForms\obj\Debug\WindowsForms.csproj.GenerateResource.cache
+D:\priview2017\preview2017\WindowsForms\obj\Debug\WindowsForms.csproj.CoreCompileInputs.cache
+D:\priview2017\preview2017\WindowsForms\bin\Debug\WindowsForms.exe.config
+D:\priview2017\preview2017\WindowsForms\bin\Debug\WindowsForms.exe
+D:\priview2017\preview2017\WindowsForms\bin\Debug\WindowsForms.pdb
+D:\priview2017\preview2017\WindowsForms\obj\Debug\WindowsForms.exe
+D:\priview2017\preview2017\WindowsForms\obj\Debug\WindowsForms.pdb

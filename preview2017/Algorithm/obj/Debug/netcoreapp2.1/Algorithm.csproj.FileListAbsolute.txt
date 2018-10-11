@@ -1,0 +1,11 @@
+D:\priview2017\preview2017\Algorithm\bin\Debug\netcoreapp2.1\Algorithm.deps.json
+D:\priview2017\preview2017\Algorithm\bin\Debug\netcoreapp2.1\Algorithm.runtimeconfig.json
+D:\priview2017\preview2017\Algorithm\bin\Debug\netcoreapp2.1\Algorithm.runtimeconfig.dev.json
+D:\priview2017\preview2017\Algorithm\bin\Debug\netcoreapp2.1\Algorithm.dll
+D:\priview2017\preview2017\Algorithm\bin\Debug\netcoreapp2.1\Algorithm.pdb
+D:\priview2017\preview2017\Algorithm\obj\Debug\netcoreapp2.1\Algorithm.csprojAssemblyReference.cache
+D:\priview2017\preview2017\Algorithm\obj\Debug\netcoreapp2.1\Algorithm.csproj.CoreCompileInputs.cache
+D:\priview2017\preview2017\Algorithm\obj\Debug\netcoreapp2.1\Algorithm.AssemblyInfoInputs.cache
+D:\priview2017\preview2017\Algorithm\obj\Debug\netcoreapp2.1\Algorithm.AssemblyInfo.cs
+D:\priview2017\preview2017\Algorithm\obj\Debug\netcoreapp2.1\Algorithm.dll
+D:\priview2017\preview2017\Algorithm\obj\Debug\netcoreapp2.1\Algorithm.pdb
