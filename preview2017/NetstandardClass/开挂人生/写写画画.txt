@@ -4,3 +4,30 @@
 色敏元件   味敏元件 力敏      气敏
 电信号 非电的物理量  传送  交换 存储  提取  
 整洁 清晰  漂亮
+
+windows10 自动下载并安装更新，以确保设备安全并保持最新状态 最新的修复程序 安全更新 更新设置
+
+recv  + waitall  循环读取
+学习是代表你的将来
+悲观并发处理 乐观并发处理 乐观者 悲观者 
+统一的可扩展固态接口
+.net core开放源代码 microsoft github .net社区 windows macOS Linux  云 设备 lot
+docker 世界领先 软件容器
+软件打包 标准化单元 开发 交付 部署容器镜像    容器化软件 
+容器 软件独立性  bootstrap 响应式设计  bootstrap 包含了自定义的 jquery插件
+<!DOCTYPE html>
+</html>  Install-Package  staticfile cdn link ref rel script src https://cdnsjs/com/ 底层  关键  更好 更快 更强壮 最佳实践  <!DOCTYPE html> 适当绘制 
+<meta name="viewport"  content="width=device-width,initial-scale=1.0"  user-scalable=no  maximum=1.0 img-responsive  center-block text-center
+@media(min-width:66px){ 
+.conteai{
+
+}}
+@media (min-width: 768px) {
+   .container {
+      width: 750px;
+}  预定义类 功能强大混合类    响应式网格系统  .container .row .col-xs-4
+@media (min-width: @screen-lg-min) { ... }
+@media(min-width:@screen-lg-min){...  }    col-md-offset-3
+
+https://api.example.com /v1/   资源
+https://example.org/api
