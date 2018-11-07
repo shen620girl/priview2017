@@ -1,0 +1,5 @@
+﻿(0001)mysql 安装问题：
+1 安装完成后，需要将mysql服务加入windows
+2 启动mysql服务
+3生成初始密码运行：mysqld --initialize
+4 重要指令：ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';   status;  update mysql.user set  plugin='mysql_native_password' where user='root';
