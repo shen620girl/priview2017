@@ -33,3 +33,5 @@ https://api.example.com /v1/   资源
 https://example.org/api
 OAuth 2.0 获得用户授权  Third-party application HTTP service   授权 令牌  授权码模式   refresh token access to Content-Type application/json  Cache-Controler:no-store 
 Pragma:no-cache  客户类只定义一个注入点  运行上下文环境或专门组件负责实例化服务类  客户类的运行上下文 专门的组件 负责实例化服务类 
+请求头  请求正文  响应头 响应正文 http 应用正文 header   Webapi的授权  cryptographic  不记名令牌不记名令牌   网络请求的适配器 
+syn ack ack  工作即生活 生活即工作  解释计算机语言  hadoop mapreduce
